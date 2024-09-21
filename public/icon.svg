@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Background Circle -->
+  <circle cx="50" cy="50" r="48" stroke="#000" stroke-width="4" fill="#20232a"/>
+
+  <!-- Stack of Blocks -->
+  <rect x="30" y="60" width="40" height="10" fill="#61DAFB"/>
+  <rect x="35" y="45" width="30" height="10" fill="#61DAFB"/>
+  <rect x="40" y="30" width="20" height="10" fill="#61DAFB"/>
+</svg>
