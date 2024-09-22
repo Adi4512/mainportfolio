@@ -22,13 +22,14 @@ export default function Projects() {
                 
                 
                 className='w-full lg:w-1/4'> 
-                    <img 
+                  <a href={p.url} target='_blank'>  <img 
                     src={p.image}
                     width={150}
                     height={150}
                     className='mb-6 rounded' 
                     alt={p.title}
                      />
+                     </a>
                 </motion.div>
             <motion.div
             whileInView={{opacity:1,x:0}}
@@ -38,7 +39,7 @@ export default function Projects() {
             
             
              className='w-full max-w-xl lg:w-3/4'>
-            <h6 className='mb-2 font-semibold'>{p.title}</h6>
+           <a href={p.url} target='_blank'> <h6 className='mb-2 font-semibold btn'>{p.title}</h6> </a>
             <p className='mb-4 text-neutral-400'>{p.description}</p>
             {p.technologies.map((tech,index)=>{
                 return (

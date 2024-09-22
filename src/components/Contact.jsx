@@ -20,7 +20,7 @@ export default function Contact() {
       transition={{duration:1}} 
        className='p-1 flex justify-center items-center'>
       <CiLocationOn className='mr-2' />
-      <p className='my-4'>{CONTACT.address}</p>
+      <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(CONTACT.address + ', Pune, India')}`} target='_blank' className='my-4'>{CONTACT.address}</a>
       </motion.div>
 
       <motion.div
@@ -28,16 +28,20 @@ export default function Contact() {
       initial={{opacity:0,x:100}}
       transition={{duration:1}} 
        className='p-1 flex justify-center items-center'>
+      
       <FaPhoneAlt className='mr-2'/>
-      <p className='my-4'>{CONTACT.phoneNo}</p>
+
+      <a href={`tel:${CONTACT.phoneNo}`} className='my-4'>{CONTACT.phoneNo}</a>
+      
       </motion.div>
+
       <motion.div
       whileInView={{opacity:1,y:0}}
       initial={{opacity:0,y:-20}}
       transition={{duration:1}} 
        className='p-1 flex justify-center items-center'>
       <MdAttachEmail className='mr-2'/>
-      <a  href='#' className='border-b'>{CONTACT.email}</a>
+      <a  href={`mailto:${CONTACT.email}`} className='border-b'>{CONTACT.email}</a>
       </motion.div>
       </div>
     </div>

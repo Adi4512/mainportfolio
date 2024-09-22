@@ -1,5 +1,5 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
@@ -18,32 +18,36 @@ export const EXPERIENCES =
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "E-Commerce Shoes Website",
     image: project1,
+    url:"https://adi4512.github.io/ecommerce-filtering/",
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "A fully functional e-commerce website with features like searching,etc.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
+    title: "MemeGenerator",
     image: project2,
+    url:"https://adi4512.github.io/MemeGenerator/",
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "website that generators random memes..",
+    technologies: ["HTML", "CSS", "React", "Node.js", "Api"]
   },
   {
     title: "Portfolio Website",
     image: project3,
+    url:"#",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS", "React", "tailwind css", "framer motion","Threejs","Nextjs"]
   },
   {
-    title: "Blogging Platform",
+    title: "tenzies Game",
     image: project4,
+    url:"https://adi4512.github.io/Tenzies-Game/" ,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A Gaming platform to play tenzies,beautifully designed and easy to use.",
+    technologies: ["HTML", "CSS", "React", "Express","bootstrap"],
   },
 ];
 
