@@ -36,6 +36,7 @@
     rgba(76, 175, 80, 0.8),   /* Soft Green */
     rgba(33, 150, 243, 0.8),  /* Soft Blue */
     rgba(156, 39, 176, 0.8)   /* Soft Purple */
+    
   );
   
   position: absolute;
@@ -54,4 +55,8 @@
 
 .btn:hover::before {
   opacity: 1;
+}
+
+.btn:hover {
+  color: black; /* Change text color to black on hover */
 }

@@ -30,7 +30,7 @@ export const PROJECTS = [
     image: project2,
     url:"https://adi4512.github.io/MemeGenerator/",
     description:
-      "website that generators random memes..",
+      "website that generators random memes and u can edit text on them.",
     technologies: ["HTML", "CSS", "React", "Node.js", "Api"]
   },
   {
