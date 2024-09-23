@@ -7,6 +7,7 @@ import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Greeting from './components/Greeting'
+import { Element } from 'react-scroll';
 
 
 export default function App() {
@@ -19,13 +20,17 @@ export default function App() {
       </div>
      <div className="container mx-auto px-8">
      <Greeting />
-     <Navbar />
+     
      <Hero />
      <About />
      <Technology />
      <Experience />
+     <Element name='projects'>
      <Projects />
+     </Element>
+     
      <Contact />
+     
      </div>
       
 
