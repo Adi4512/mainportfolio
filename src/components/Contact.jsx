@@ -31,7 +31,7 @@ export default function Contact() {
       
       <FaPhoneAlt className='mr-2'/>
 
-      <a href={`tel:${CONTACT.phoneNo}`} className='my-4'>{CONTACT.phoneNo}</a>
+      <a href={`https://wa.me/${CONTACT.phoneNo.replace(/\s/g, '')}?text=Hi%20I'm%20interested%20in%20your%20work.`} target='_blank' className='my-4'>{CONTACT.phoneNo}</a>
       
       </motion.div>
 

@@ -60,3 +60,25 @@
 .btn:hover {
   color: black; /* Change text color to black on hover */
 }
+
+
+.greeting-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: 
+  #2f2f2f; /* Black background */
+  color: #e6e6e6; /* Light grey text */
+  font-size: 2em;
+  font-family: 'Arial', sans-serif;
+}
+
+#main-content {
+  text-align: center;
+  padding: 20px;
+}
+
+.custom-bg {
+  background-color: rgba(255, 255, 227, var(--tw-bg-opacity));
+}
