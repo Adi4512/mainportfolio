@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaHome, FaBriefcase, FaAddressCard } from 'react-icons/fa';
-import Navbar from './Navbar';
 import { Link } from 'react-scroll';
 
 export default function MainContent() {

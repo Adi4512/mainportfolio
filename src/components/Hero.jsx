@@ -1,6 +1,6 @@
 import React from 'react'
 import { HERO_CONTENT } from '../constants'
-import profilePic from "../assets/kevinRushProfile.png"
+import profilePic from "../assets/dev-ed-wave.png"
 import { motion } from "framer-motion";
 
 const container=(delay)=>({
@@ -19,7 +19,7 @@ export default function Hero() {
     <div className='border-b border-neutral-900 pb-4 lg:mb-35'>
     <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
-            <div className="flex flex-col items-center lg:items-start">
+            <div className="flex flex-col items-center lg:items-start ml-12">
              <motion.h1 
              variants={container(0.1)}
              initial="hidden"
@@ -40,13 +40,14 @@ export default function Hero() {
              </motion.p> 
             </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-8">
-            <div className="flex justify-center">
+        <div className="w-full  lg:w-1/2 lg:p-8 ">
+            <div className="flex">
                 <motion.img
+                
                 initial={{x:100,opacity:0}}
                 animate={{x:0,opacity:1}}
                 transition={{duration:1,delay:1.2}}
-                src={profilePic} alt="profile"/>
+                src={profilePic} className="w-[500px] h-auto ml-auto" style={{ marginLeft: '250px' }} alt="profile"/>
             </div>
         </div>
     </div>

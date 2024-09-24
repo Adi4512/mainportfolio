@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import MainContent from './MainContent';
-import Navbar from './Navbar';
 
 export default function Greeting() {
   const greetings = ['Hello', 'hola', '你好', 'Bonjour', 'Ciao','Здравствуйте', 'Namaste'];
@@ -44,14 +43,14 @@ export default function Greeting() {
       {showGreeting ? (
         <div
           id="greeting-screen"
-          className={`greeting-screen text-center text-yellow transform transition-transform duration-1000 ${
+          className={`greeting-screen text-center text-yellow transform transition-transform duration-1000 h-screen  flex justify-center items-center  ${
             moveUp ? '-translate-y-full' : 'translate-y-0'
           }`} // Apply Tailwind bottom-to-top transition
         >
           <p className="bold text-5xl text-center text-yellow">• {currentGreeting}</p>
         </div>
       ) : (
-        <div className='items-center '>
+        <div className='items-center'>
         <MainContent />
         </div>
       )}
