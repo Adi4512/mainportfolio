@@ -4,7 +4,7 @@ import { SiMongodb } from 'react-icons/si';
 import { FaNodeJs } from 'react-icons/fa';
 import { BiLogoPostgresql } from 'react-icons/bi';
 import { motion } from 'framer-motion';
-import { tr } from 'framer-motion/client';
+
 
 const iconVariants=(duration)=>({
   initial:{y:-10},

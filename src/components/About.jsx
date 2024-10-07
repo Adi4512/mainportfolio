@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutImg from "../assets/about.jpg"
+import aboutImg from "../assets/about-1.webp"
 import { ABOUT_TEXT } from '../constants'
 import { motion } from 'framer-motion'
 
@@ -14,7 +14,7 @@ export default function About() {
         transition={{duration:0.5}}
          className="w-full lg:w-1/2 lg:p-8">
             <div className="flex items-center justify-center">
-                <img src={aboutImg} alt="about"/>
+                <img src={aboutImg}  width={420} alt="about"/>
             </div>
         </motion.div>
             <motion.div
@@ -24,8 +24,8 @@ export default function About() {
             
             
              className="w-full lg:w-1/2">
-                <div className="flex justify-center lg:justify-start">
-                    <p className='my-2 max-w-xl py-6'>{ABOUT_TEXT}</p>
+                <div className="flex justify-center lg:justify-start mt-10">
+                    <p className='my-4 max-w-xl py-8'>{ABOUT_TEXT}</p>
                 </div>
              </motion.div>
     </div>

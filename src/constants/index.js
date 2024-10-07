@@ -1,11 +1,15 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.png";
-import project3 from "../assets/projects/project-3.jpg";
+import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 1 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB.`;
+export const ABOUT_TEXT = `I’m a passionate full stack developer with a knack for turning complex problems into sleek, scalable web solutions. With 1 year of experience under my belt, I’ve mastered technologies like React, Next.js, Node.js, PostgreSQL, and MongoDB,  delivering high-performance applications that users love.
+
+But I’m not stopping there! I’m constantly pushing my boundaries, currently diving deep into Socket.IO, Three.js, AWS, and Web3.0 to stay ahead of the curve and bring the future of tech into my projects.
+
+If you’re looking for a developer who combines cutting-edge skills with a relentless drive for innovation, I’m your person. Let’s build something amazing together!`
 
 export const EXPERIENCES = 
   {
@@ -34,12 +38,12 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Node.js", "Api"]
   },
   {
-    title: "Portfolio Website",
+    title: "Nike Website",
     image: project3,
-    url:"#",
+    url:"https://nike-landing-page-one-ph.vercel.app/",
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "tailwind css", "framer motion","Threejs","Nextjs"]
+      "Nike Website With minimalistic design and responsive layout.",
+    technologies: ["HTML", "CSS", "React", "tailwind css", "framer motion"]
   },
   {
     title: "tenzies Game",
