@@ -7,7 +7,7 @@ export default function MainContent() {
     <>
     <div 
       id="main-content" 
-      className="flex justify-center items-center space-x-7 p-2 bg-black bg-opacity-20 rounded-full text-white border border-gray-700 cursor-pointer mx-auto mt-4 mb-10 " 
+      className="flex justify-center items-center space-x-7 p-2 bg-black bg-opacity-20 rounded-full text-white border border-gray-700 cursor-pointer mx-auto mt-4 mb-10 max-sm:ml-4 " 
       style={{ maxWidth: '400px' }} // Set a max-width to control the size
     >
       <a href='/' div className="flex flex-col items-center hover:text-cyan-400">
