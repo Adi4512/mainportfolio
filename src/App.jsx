@@ -18,8 +18,9 @@ export default function App() {
 
       </div>
       </div>
+      <Greeting />
      <div className="container mx-auto px-8">
-     <Greeting />
+    
      
      <Hero />
      <About />
