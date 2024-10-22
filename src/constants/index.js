@@ -48,7 +48,7 @@ export const PROJECTS = [
     image: project4,
     url: "https://ecom-elite-buy.vercel.app/",
     description:
-      "iscover the future of online shopping with our brand-new e-commerce platform. Fast, user-friendly, and designed to make your shopping experience seamless",
+      "Discover the future of online shopping.Fast, user-friendly, and designed to make your shopping experience seamless",
     technologies: ["TypeScript", "ReactJs", "REST API", "TailwindCSS"],
   },
 ];
